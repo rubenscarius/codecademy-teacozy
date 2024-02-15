@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+
+header > img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-decoration: underline;
+}
+
+ul>li {
+    margin: 0 10px;
+}
+
+ul>li>a {
+    color: seashell;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    background-image: url(./src/images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    margin-top: 69px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+}
+
+.tea-types {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tea-types>.text {
+    margin-bottom: 20px;
+}
+
+.tea-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tea-cards>.cards>img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-cards>.cards>h4 {
+    margin-top: 10px;
+}
+
+.locations {
+    background-image: url(./src/images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.l-card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    background-size: 100% 100%;
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.end {
+    height: 200px;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
